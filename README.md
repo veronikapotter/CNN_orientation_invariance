@@ -2,6 +2,13 @@
 
 This repository contains all the code used in the paper "A Methodology for Extracting Orientation-Independent Features Using Convolutional Neural Networks to Support More Adaptable Human Activity Recognition". 
 
+## System Requirements
+This code is reliant on 
+* [TensorFlow](https://www.tensorflow.org/install)
+* [Sci-Kit Learn](https://scikit-learn.org/stable/install.html) 
+
+All packages must be properly installed to replicate the experimental results. 
+
 ## To Replicate Experimental Results 
 The script `run_exp_n.py` where *n* represents an experiment number (e.g., 1, 2, or) corresponds to the models trained and evaluated to obtain the results for experiment *n*. As the PAAWS data is not currently publically available, to replicate the results with a different dataset, modify the paths in the `get_data.py` file. This repository will be updated to work with the PAAWS data once it is publically available allowing anyone to replicate the results in this work. 
 
